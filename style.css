@@ -1,0 +1,26 @@
+html    {
+    /* background-color: black; */
+    background-image: url('assets/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+img {
+    padding: 5;
+}
+
+.info   {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    bottom: 70%;
+    left: 0%;
+    overflow-y: auto;
+    overflow-x:auto;
+    transform: translateX(10%);
+    transform: translateY(130%);
+
+}
